@@ -1,0 +1,27 @@
+{
+  "name": "GJMQTT",
+  "version": "0.1.0",
+  "summary": "A short description of GJMQTT.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Aodan/GJMQTT",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aodan": "aodan@aodan.me"
+  },
+  "source": {
+    "git": "https://github.com/Aodan/GJMQTT.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "GJMQTT/Classes/**/*",
+  "dependencies": {
+    "CocoaMQTT": [
+      "~> 2.0"
+    ]
+  }
+}

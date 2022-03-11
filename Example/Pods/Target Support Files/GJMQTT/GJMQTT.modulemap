@@ -1,0 +1,6 @@
+framework module GJMQTT {
+  umbrella header "GJMQTT-umbrella.h"
+
+  export *
+  module * { export * }
+}

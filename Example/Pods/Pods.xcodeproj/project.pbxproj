@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE0D92B31EE01D19F0297B4314F097B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4CAAF328255D52428A3F684BFBF4CC6F /* Pods-GJMQTT_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39E6F12AD2AD837AF73FE3F25E6EB918 /* Pods-GJMQTT_Tests-dummy.m */; };
+		55E86A524377654303E368BC6636EB30 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B57E080C86BA1E066B29192020D872 /* ReplaceMe.swift */; };
+		60F08AD1A4655B65A81BC6CF3FD8E16F /* GJMQTT-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D4767FF74EA477EC0AB7C6B8B362CD /* GJMQTT-dummy.m */; };
+		88D6C496BADFCC3ADBB77AA4E45999CA /* Pods-GJMQTT_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D5EEFE77FF1C38F72B93F8E0AF6F6E37 /* Pods-GJMQTT_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A40550F6D3A66C417FF260EA68BC8297 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A445C0CDF7E6B2DD5A01E70EF318E95F /* Pods-GJMQTT_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA3B8BF0A65E785978D8ABFA1DEDF5 /* Pods-GJMQTT_Example-dummy.m */; };
+		A7FC74A9B2919FD9AA42DCA7B95526AD /* Pods-GJMQTT_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88BA8B84289D2C3C0B939553183F3A0E /* Pods-GJMQTT_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05C150346FB2A3200207926BC0C5900 /* GJMQTT-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B794D3A177829050BDCD24A4CD7CCB /* GJMQTT-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDC82926B26F09AF253F8DFBFD72BC3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D54D02082319A1304866AB804827DE78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B57AF40A35A30BB1D1ACA758F0AAEB9;
+			remoteInfo = "Pods-GJMQTT_Example";
+		};
+		EF04C816955B81FA92AA051DDF932265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8CC9533F74270FC181DCCD40E5F296FA;
+			remoteInfo = GJMQTT;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AF7588B83FCB15F449FEF76506A857 /* GJMQTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJMQTT.debug.xcconfig; sourceTree = "<group>"; };
+		17B57E080C86BA1E066B29192020D872 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = GJMQTT/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		30C286AAC5B716046CEEAEEDD13EAEDD /* Pods-GJMQTT_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMQTT_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		33DA050E6A384EDD47E9F01586B3A43B /* Pods-GJMQTT_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMQTT_Example.release.xcconfig"; sourceTree = "<group>"; };
+		36F82D4CD1286DB662389015BE8A6E96 /* Pods_GJMQTT_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GJMQTT_Tests.framework; path = "Pods-GJMQTT_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E6F12AD2AD837AF73FE3F25E6EB918 /* Pods-GJMQTT_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJMQTT_Tests-dummy.m"; sourceTree = "<group>"; };
+		4FBB0B29192B6993457892C4E1FDB5AC /* Pods-GJMQTT_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJMQTT_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4FFA3B8BF0A65E785978D8ABFA1DEDF5 /* Pods-GJMQTT_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GJMQTT_Example-dummy.m"; sourceTree = "<group>"; };
+		546569115102B2017F48F518D510D9DE /* Pods-GJMQTT_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GJMQTT_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		550A9A962C402F413103A57E0C09EB7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5A11F2330EB32B6311CAA5213D0E6840 /* Pods-GJMQTT_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMQTT_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BC34E156E8BE6061AD9F87E97E43B7F /* Pods-GJMQTT_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMQTT_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		67D4767FF74EA477EC0AB7C6B8B362CD /* GJMQTT-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GJMQTT-dummy.m"; sourceTree = "<group>"; };
+		6876FF3D31EFC1D6000CD4DAD589F5D2 /* GJMQTT-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GJMQTT-Info.plist"; sourceTree = "<group>"; };
+		6D738EA08216F47CEBC56E98AA547647 /* GJMQTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GJMQTT.release.xcconfig; sourceTree = "<group>"; };
+		6D8362AF5FDCA66FA630D5D222651035 /* Pods-GJMQTT_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GJMQTT_Example-frameworks.sh"; sourceTree = "<group>"; };
+		70F96D70B58F33D5E7DDF91DC47F09DB /* Pods-GJMQTT_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMQTT_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		73914171282002B989D419D4F149AAE8 /* GJMQTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GJMQTT.framework; path = GJMQTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88BA8B84289D2C3C0B939553183F3A0E /* Pods-GJMQTT_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJMQTT_Example-umbrella.h"; sourceTree = "<group>"; };
+		8DE318F61E18A79E5B633833717B9FB2 /* Pods-GJMQTT_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJMQTT_Example.modulemap"; sourceTree = "<group>"; };
+		91BE9D17612D0D940829B1DF698463BD /* Pods-GJMQTT_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GJMQTT_Tests.modulemap"; sourceTree = "<group>"; };
+		93CDA96671FE8BD2CE714537FF5D274C /* Pods-GJMQTT_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GJMQTT_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1BA5630F1F73A55D7758AFF236A75BC /* Pods_GJMQTT_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GJMQTT_Example.framework; path = "Pods-GJMQTT_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A44210C199EDCA8F2512313FA638C5A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BF6E5855128C888E1B37FFF68C8D75BA /* Pods-GJMQTT_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMQTT_Tests-Info.plist"; sourceTree = "<group>"; };
+		C9B794D3A177829050BDCD24A4CD7CCB /* GJMQTT-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJMQTT-umbrella.h"; sourceTree = "<group>"; };
+		D3701EBD5057B68CAD74C5056D9BC322 /* GJMQTT.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GJMQTT.modulemap; sourceTree = "<group>"; };
+		D5EEFE77FF1C38F72B93F8E0AF6F6E37 /* Pods-GJMQTT_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GJMQTT_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D61185B69829E29833B7FC8B80ACA52B /* GJMQTT.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = GJMQTT.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E3A637C74709D8E6432BC14D07D0EDDF /* GJMQTT-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GJMQTT-prefix.pch"; sourceTree = "<group>"; };
+		FCD49A7EA0C35B519B98E6E08EF14017 /* Pods-GJMQTT_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GJMQTT_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49EA80761832049060EB9E3179CDBE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE0D92B31EE01D19F0297B4314F097B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AA96C5B5F3C9E740D7BD00ADCE5C586 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC82926B26F09AF253F8DFBFD72BC3E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706FB8780C1518FD2A7930086D7BA2CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40550F6D3A66C417FF260EA68BC8297 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		231FB3786AE30636B4F66E366FD47331 /* GJMQTT */ = {
+			isa = PBXGroup;
+			children = (
+				17B57E080C86BA1E066B29192020D872 /* ReplaceMe.swift */,
+				A3D31C2F1483A976F6358EC0D08012B4 /* Pod */,
+				FBDD11C23FB542AFD908B93831DF4F6F /* Support Files */,
+			);
+			name = GJMQTT;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5ED7D29ECEE6EAA3DF21F69919D47D84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6855129CD5D3B103996977DF0DD5DB46 /* Pods-GJMQTT_Example */,
+				A06D372DC902DEC8F011737885E5A780 /* Pods-GJMQTT_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6855129CD5D3B103996977DF0DD5DB46 /* Pods-GJMQTT_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8DE318F61E18A79E5B633833717B9FB2 /* Pods-GJMQTT_Example.modulemap */,
+				546569115102B2017F48F518D510D9DE /* Pods-GJMQTT_Example-acknowledgements.markdown */,
+				5A11F2330EB32B6311CAA5213D0E6840 /* Pods-GJMQTT_Example-acknowledgements.plist */,
+				4FFA3B8BF0A65E785978D8ABFA1DEDF5 /* Pods-GJMQTT_Example-dummy.m */,
+				6D8362AF5FDCA66FA630D5D222651035 /* Pods-GJMQTT_Example-frameworks.sh */,
+				FCD49A7EA0C35B519B98E6E08EF14017 /* Pods-GJMQTT_Example-Info.plist */,
+				88BA8B84289D2C3C0B939553183F3A0E /* Pods-GJMQTT_Example-umbrella.h */,
+				70F96D70B58F33D5E7DDF91DC47F09DB /* Pods-GJMQTT_Example.debug.xcconfig */,
+				33DA050E6A384EDD47E9F01586B3A43B /* Pods-GJMQTT_Example.release.xcconfig */,
+			);
+			name = "Pods-GJMQTT_Example";
+			path = "Target Support Files/Pods-GJMQTT_Example";
+			sourceTree = "<group>";
+		};
+		94B7650B2787854C8F8E5A398B177CBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73914171282002B989D419D4F149AAE8 /* GJMQTT.framework */,
+				A1BA5630F1F73A55D7758AFF236A75BC /* Pods_GJMQTT_Example.framework */,
+				36F82D4CD1286DB662389015BE8A6E96 /* Pods_GJMQTT_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A06D372DC902DEC8F011737885E5A780 /* Pods-GJMQTT_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91BE9D17612D0D940829B1DF698463BD /* Pods-GJMQTT_Tests.modulemap */,
+				4FBB0B29192B6993457892C4E1FDB5AC /* Pods-GJMQTT_Tests-acknowledgements.markdown */,
+				5BC34E156E8BE6061AD9F87E97E43B7F /* Pods-GJMQTT_Tests-acknowledgements.plist */,
+				39E6F12AD2AD837AF73FE3F25E6EB918 /* Pods-GJMQTT_Tests-dummy.m */,
+				BF6E5855128C888E1B37FFF68C8D75BA /* Pods-GJMQTT_Tests-Info.plist */,
+				D5EEFE77FF1C38F72B93F8E0AF6F6E37 /* Pods-GJMQTT_Tests-umbrella.h */,
+				30C286AAC5B716046CEEAEEDD13EAEDD /* Pods-GJMQTT_Tests.debug.xcconfig */,
+				93CDA96671FE8BD2CE714537FF5D274C /* Pods-GJMQTT_Tests.release.xcconfig */,
+			);
+			name = "Pods-GJMQTT_Tests";
+			path = "Target Support Files/Pods-GJMQTT_Tests";
+			sourceTree = "<group>";
+		};
+		A3D31C2F1483A976F6358EC0D08012B4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D61185B69829E29833B7FC8B80ACA52B /* GJMQTT.podspec */,
+				550A9A962C402F413103A57E0C09EB7B /* LICENSE */,
+				A44210C199EDCA8F2512313FA638C5A9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				ECC1C72BE6D6D1EB6DD857E6F9874D1B /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				94B7650B2787854C8F8E5A398B177CBE /* Products */,
+				5ED7D29ECEE6EAA3DF21F69919D47D84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECC1C72BE6D6D1EB6DD857E6F9874D1B /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				231FB3786AE30636B4F66E366FD47331 /* GJMQTT */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FBDD11C23FB542AFD908B93831DF4F6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3701EBD5057B68CAD74C5056D9BC322 /* GJMQTT.modulemap */,
+				67D4767FF74EA477EC0AB7C6B8B362CD /* GJMQTT-dummy.m */,
+				6876FF3D31EFC1D6000CD4DAD589F5D2 /* GJMQTT-Info.plist */,
+				E3A637C74709D8E6432BC14D07D0EDDF /* GJMQTT-prefix.pch */,
+				C9B794D3A177829050BDCD24A4CD7CCB /* GJMQTT-umbrella.h */,
+				09AF7588B83FCB15F449FEF76506A857 /* GJMQTT.debug.xcconfig */,
+				6D738EA08216F47CEBC56E98AA547647 /* GJMQTT.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GJMQTT";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3AB60F7A98A72D42F00906F2ADCCB086 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B05C150346FB2A3200207926BC0C5900 /* GJMQTT-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DFF5E460A3FD6B30C244A5650D41A58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88D6C496BADFCC3ADBB77AA4E45999CA /* Pods-GJMQTT_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A49A26FBCEA3408B1F2C29AF50C977A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7FC74A9B2919FD9AA42DCA7B95526AD /* Pods-GJMQTT_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5B57AF40A35A30BB1D1ACA758F0AAEB9 /* Pods-GJMQTT_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD75868705C4C26DACA863F7767E740 /* Build configuration list for PBXNativeTarget "Pods-GJMQTT_Example" */;
+			buildPhases = (
+				A49A26FBCEA3408B1F2C29AF50C977A5 /* Headers */,
+				681BD7EDFADB9E3D0894B34BEC8036F5 /* Sources */,
+				5AA96C5B5F3C9E740D7BD00ADCE5C586 /* Frameworks */,
+				215369A6CB9E68E41834FD73ED3D052C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2170098BC9F3805FC496EF3D034BDF56 /* PBXTargetDependency */,
+			);
+			name = "Pods-GJMQTT_Example";
+			productName = "Pods-GJMQTT_Example";
+			productReference = A1BA5630F1F73A55D7758AFF236A75BC /* Pods_GJMQTT_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CC9533F74270FC181DCCD40E5F296FA /* GJMQTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C60C8A6FA430B47C68AF802708A2A615 /* Build configuration list for PBXNativeTarget "GJMQTT" */;
+			buildPhases = (
+				3AB60F7A98A72D42F00906F2ADCCB086 /* Headers */,
+				6FA477C9EA6523DD8AE2913B655DE8A9 /* Sources */,
+				706FB8780C1518FD2A7930086D7BA2CA /* Frameworks */,
+				AC6019486B9C76A8A4DDD0617B93389E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJMQTT;
+			productName = GJMQTT;
+			productReference = 73914171282002B989D419D4F149AAE8 /* GJMQTT.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B73C188194DE1ABE6F0BFAE2BA17C12A /* Pods-GJMQTT_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 083A0AA826CD9DC7D8C543A00FA4FCEF /* Build configuration list for PBXNativeTarget "Pods-GJMQTT_Tests" */;
+			buildPhases = (
+				5DFF5E460A3FD6B30C244A5650D41A58 /* Headers */,
+				6AB9FD8C5733B8C2121D3C2EFAC3798A /* Sources */,
+				49EA80761832049060EB9E3179CDBE4B /* Frameworks */,
+				CC29ED5A76548026606714D5A5D2C849 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18E325F4E9C4F465E7D3BD389487AD7F /* PBXTargetDependency */,
+			);
+			name = "Pods-GJMQTT_Tests";
+			productName = "Pods-GJMQTT_Tests";
+			productReference = 36F82D4CD1286DB662389015BE8A6E96 /* Pods_GJMQTT_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 94B7650B2787854C8F8E5A398B177CBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CC9533F74270FC181DCCD40E5F296FA /* GJMQTT */,
+				5B57AF40A35A30BB1D1ACA758F0AAEB9 /* Pods-GJMQTT_Example */,
+				B73C188194DE1ABE6F0BFAE2BA17C12A /* Pods-GJMQTT_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		215369A6CB9E68E41834FD73ED3D052C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC6019486B9C76A8A4DDD0617B93389E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC29ED5A76548026606714D5A5D2C849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		681BD7EDFADB9E3D0894B34BEC8036F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A445C0CDF7E6B2DD5A01E70EF318E95F /* Pods-GJMQTT_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB9FD8C5733B8C2121D3C2EFAC3798A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CAAF328255D52428A3F684BFBF4CC6F /* Pods-GJMQTT_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA477C9EA6523DD8AE2913B655DE8A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60F08AD1A4655B65A81BC6CF3FD8E16F /* GJMQTT-dummy.m in Sources */,
+				55E86A524377654303E368BC6636EB30 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18E325F4E9C4F465E7D3BD389487AD7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-GJMQTT_Example";
+			target = 5B57AF40A35A30BB1D1ACA758F0AAEB9 /* Pods-GJMQTT_Example */;
+			targetProxy = D54D02082319A1304866AB804827DE78 /* PBXContainerItemProxy */;
+		};
+		2170098BC9F3805FC496EF3D034BDF56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GJMQTT;
+			target = 8CC9533F74270FC181DCCD40E5F296FA /* GJMQTT */;
+			targetProxy = EF04C816955B81FA92AA051DDF932265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		643195994C2EFF4E28A43B6E042D90A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33DA050E6A384EDD47E9F01586B3A43B /* Pods-GJMQTT_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GJMQTT_Example/Pods-GJMQTT_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GJMQTT_Example/Pods-GJMQTT_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90F53B5ECB569D12A548570233BDECD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09AF7588B83FCB15F449FEF76506A857 /* GJMQTT.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GJMQTT/GJMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GJMQTT/GJMQTT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GJMQTT/GJMQTT.modulemap";
+				PRODUCT_MODULE_NAME = GJMQTT;
+				PRODUCT_NAME = GJMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9525221033FB7A045E7E2BBA1FFB91CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CDA96671FE8BD2CE714537FF5D274C /* Pods-GJMQTT_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GJMQTT_Tests/Pods-GJMQTT_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GJMQTT_Tests/Pods-GJMQTT_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A88B6813696872EEE639080B9CA21700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70F96D70B58F33D5E7DDF91DC47F09DB /* Pods-GJMQTT_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GJMQTT_Example/Pods-GJMQTT_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GJMQTT_Example/Pods-GJMQTT_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D5DB0F77EB9C52F45A5CC0D73EA60312 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D738EA08216F47CEBC56E98AA547647 /* GJMQTT.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GJMQTT/GJMQTT-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GJMQTT/GJMQTT-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GJMQTT/GJMQTT.modulemap";
+				PRODUCT_MODULE_NAME = GJMQTT;
+				PRODUCT_NAME = GJMQTT;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FD97B5F4592A2C57C326877697A32EDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C286AAC5B716046CEEAEEDD13EAEDD /* Pods-GJMQTT_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GJMQTT_Tests/Pods-GJMQTT_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GJMQTT_Tests/Pods-GJMQTT_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		083A0AA826CD9DC7D8C543A00FA4FCEF /* Build configuration list for PBXNativeTarget "Pods-GJMQTT_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD97B5F4592A2C57C326877697A32EDC /* Debug */,
+				9525221033FB7A045E7E2BBA1FFB91CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD75868705C4C26DACA863F7767E740 /* Build configuration list for PBXNativeTarget "Pods-GJMQTT_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A88B6813696872EEE639080B9CA21700 /* Debug */,
+				643195994C2EFF4E28A43B6E042D90A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C60C8A6FA430B47C68AF802708A2A615 /* Build configuration list for PBXNativeTarget "GJMQTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90F53B5ECB569D12A548570233BDECD1 /* Debug */,
+				D5DB0F77EB9C52F45A5CC0D73EA60312 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,13 @@
+# use_frameworks!
+
+platform :ios, '9.0'
+
+target 'GJMQTT_Example' do
+  pod 'GJMQTT', :path => '../'
+
+  target 'GJMQTT_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
